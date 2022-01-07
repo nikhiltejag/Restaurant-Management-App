@@ -3,26 +3,26 @@
     {
       "name": "name",
       "email": "email",
-      "password": "passowrd",
-      "id": 1
-    },
-    {
-      "name": "name",
-      "email": "email",
-      "password": "passowrd",
-      "id": 2
-    },
-    {
-      "name": "name",
-      "email": "email",
-      "password": "pasword",
-      "id": 3
+      "password": "pass",
+      "id": 4
     },
     {
       "name": "name",
       "email": "email",
       "password": "pass",
-      "id": 4
+      "id": 5
+    },
+    {
+      "name": "name",
+      "email": "email",
+      "password": "passwod",
+      "id": 6
+    },
+    {
+      "name": "Nikhil",
+      "email": "nikhil@test.com",
+      "password": "pass123",
+      "id": 7
     }
   ]
 }

@@ -6,6 +6,9 @@
         <input type="text" v-model="email" placeholder="Enter Email" />
         <input type="password" v-model="password" placeholder="Enter Password" />
         <button @click="signUp">Sign Up</button>
+        <p>
+            <router-link to="/login">Login</router-link>
+        </p>
     </div>
     
 </template>
@@ -30,33 +33,20 @@ export default {
                 password: this.password,
             })
             if (result.status === 201){
-                localStorage.setItem('user-info', result.data);
+                localStorage.setItem('user-info', JSON.stringify(result.data));
                 this.$router.push({name: 'Home'})
             }
+        }
+    },
+    mounted(){
+        let user = localStorage.getItem('user-info');
+        if (user){
+            this.$router.push({name: 'Home'})
         }
     }
 }
 </script>
 
 <style>
-    .logo{
-        width: 150px;
-    }
-    .register input{
-        width: 300px;
-        display: block;
-        margin: auto;
-        margin-bottom: 20px;
-        padding: 12px 20px 12px 20px;
-        border: 1px solid skyblue;
-    }
-
-    .register button{
-        width: 340px;
-        height: 40px;
-        border: none;
-        background-color: skyblue;
-        color: white;
-        cursor: pointer;
-    }
+   
 </style>
