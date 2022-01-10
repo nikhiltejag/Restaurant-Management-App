@@ -15,22 +15,34 @@
   ],
   "restaurants": [
     {
-      "id": "1",
-      "name": "Burger King",
-      "contact": "11111",
-      "address": "Sector 4 Visakhapatnam"
-    },
-    {
       "id": "2",
       "name": "Dominos",
       "contact": "22222",
       "address": "Sector 3 Srikakulam"
     },
     {
-      "name": "Ice Bugs",
+      "name": "Ice Bucks",
       "contact": "123123",
       "address": "Sector 1 MVP Colony",
-      "id": "hDnVFqU"
+      "id": "3"
+    },
+    {
+      "name": "Laddu Gopal",
+      "contact": "143143",
+      "address": "Beside TTD Hall, MVP Colony",
+      "id": "4"
+    },
+    {
+      "name": "MK Vijaya Bakery",
+      "contact": "123121",
+      "address": "Arilova Colony",
+      "id": "kuCUzvE"
+    },
+    {
+      "name": "RJ Flavours Bakery",
+      "contact": "121221",
+      "address": "Arilova Last Bus Stop, Visakhapatnam",
+      "id": "H28sadM"
     }
   ]
 }
